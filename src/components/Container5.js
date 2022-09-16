@@ -72,7 +72,7 @@ function counterrr(){
     //   }
     return(
         <>
-        <div className="container-5" onMouseOver={counterrr}>
+        <div className="container-5" onMouseEnter={counterrr}>
             <div className="container-5--left" >
                 <div style={{padding:"0 0 0 49%"}}>
                     <i style={{color:"#f54748", fontSize:"large", transform: "rotate(35deg)", opacity:"0.4"}} className="fas fa-paw"></i>
