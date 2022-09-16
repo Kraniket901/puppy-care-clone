@@ -12,12 +12,14 @@ function Navbar() {
     if (x.className === "topnav") {
       x.className += " responsive";
       document.querySelector(".topmargin").style.marginTop = "24rem";
-      document.getElementById("myTopnav").className += " top";
+      // document.getElementById("myTopnav").className += " top";
+      // x.style.color="black";
 
     } else {
       x.className = "topnav";
       document.querySelector(".topmargin").style.marginTop = "0";
-      document.getElementById("myTopnav").className = "topnav";
+      // document.getElementById("myTopnav").className = "topnav";
+      // x.style.color="white";
     }
   }
 
@@ -28,8 +30,8 @@ function Navbar() {
   
   const scrollFunction = () => {
     if (
-      document.body.scrollTop > 400 ||
-      document.documentElement.scrollTop > 400
+      document.body.scrollTop > 250 ||
+      document.documentElement.scrollTop > 250
     ) {
       document.getElementById("myTopnav").style.backgroundColor = "white";
       document.getElementById("myTopnav").style.boxShadow =
