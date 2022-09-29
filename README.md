@@ -1,4 +1,4 @@
-Link: https://classy-florentine-b4995c.netlify.app/
+https://classy-florentine-b4995c.netlify.app/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
